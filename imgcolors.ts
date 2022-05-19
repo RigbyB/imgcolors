@@ -8,7 +8,6 @@ export const rgbToHex = (r: number, g: number, b: number, a: number) => {
 }
 
 const beginSampler = (image: HTMLImageElement) => {
-    // Not sure why this is necessary to do but TypeScript insists.
     const canvas = document.createElement("canvas");
     canvas.width = image.width;
     canvas.height = image.height;
